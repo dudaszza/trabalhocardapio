@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Cardápio</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap" rel="stylesheet"> <!--Fonte importada do Google (a de baixo também)-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/SvgspQC/sabor-e-arte.png"> <!--Ícone da página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Usado para definir como o usuário vê a página-->
+    <link rel="stylesheet" href="angelo.html"/> <!--Linkando com o arquivo principal-->
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+
+      <a href="angelo.html"><img class="logo" src="https://i.ibb.co/SvgspQC/sabor-e-arte.png"></a> <!--Logo do Restaurante (que quando clicada você é levado à pagina principal)-->
+
+      <ul id="barradenav">
+        <center>
+          <li><a href="#opiniaopopular">Opinião dos Clientes</a></li> <!--Botão para um link interno da página, te levando ao final dela, na opinião dos clientes (que está numerada com o <ol>)-->
+			    <li><a href="https://parceiros.ifood.com.br/restaurante" target="_blank">Delivery</a></li>      <!--Barra de navegação-->
+			    <li><a href="https://www.google.com.br/maps/@-25.4955419,-49.2996029,3a,75y,216h,82.32t/data=!3m6!1e1!3m4!1ssywSLEviOsknMOgEp30Ugw!2e0!7i16384!8i8192?entry=ttu" target="_blank">Unidades</a></li>
+        </center>
+      </ul>
+    </header>
+
+    <hr class="linhadecima">  <!--Quanto essa quanto a de baixo são, como o nome diz, linhas para dar um toquezinho na imagem principal.-->
+
+    <header class="imagemdeumjeitodiferente"></header>  <!--Imagem abaixo da barra de navegação-->
+
+    <hr class="linhadebaixo">
+
+    <center><h1 class="titulo">Pratos Principais</h1></center> <!--Título por cima da imagem de fundo-->
+    
+    <center class="espaco"></center> <!--Esse center é usado pra criar um espaço na página, para caber tudo, pois o position: absolute não cria espaços novos na página (pelo menos os meus não)-->
+
+      <p class="atumtitulo">Tartar de Atum com <br>Manga e Pimenta Rosa</p>  <!--Daqui pra baixo, temos as imagens seguidas de suas descrições, onde o <p> é o texto e o <br> é a quebra de linha-->
+      <p class="atumcoisas">Atum fresco cortado em cubos e marinado <br>em um molho de manga, limão, coentro, <br>pimenta rosa e azeite de oliva extravirgem, <br>servido com chips de batata-doce.</p>
+      <img class="atum" src="https://revistaabsollut.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-23-at-10.37.00-300x200.jpeg">
+
+      <p class="risototitulo">Risoto de Camarão com <br>Coco e Curry Brasileiro</p>
+      <p class="risotocoisas"> Risoto cremoso feito com arroz arbóreo, <br>camarões frescos, leite de coco, caldo de <br>peixe, cebola, alho, coentro e um toque de <br>curry brasileiro, finalizado com queijo <br>parmesão e raspas de limão.</p>
+      <img class="risoto" src="https://1.bp.blogspot.com/-SLiQco7z3CY/YYQmnskzDsI/AAAAAAAAFjc/d2_gRZEHUp4GUAXtcG2L2OjUpCqm-VD6QCLcBGAsYHQ/s2048/Camar%25C3%25A3o%2Bao%2Bcurry%2Bacompanhado%2Bde%2Barroz%2Bde%2Bcoco%2BJPG%2BH.jpg">
+      
+      <p class="patotitulo">Magret de Pato ao Molho de <br>Tamarindo e Pimenta-de-cheiro</p>
+      <p class="patocoisas">Peito de pato grelhado no ponto perfeito, <br>servido com um molho agridoce de tamarindo, <br>pimenta-de-cheiro, mel, gengibre e vinho tinto, <br>acompanhado de purê de mandioquinha e legumes <br>grelhados.</p>
+      <img class="pato" src="https://cdn0.tudoreceitas.com/pt/posts/6/2/6/magret_de_pato_no_forno_1626_orig.jpg">
+      
+      <p class="vieiratitulo">Vieiras Grelhadas com <br>Emulsão de Azeite de <br>Dendê e Limão-cravo</p>
+      <p class="vieiracoisas">Vieiras frescas grelhadas com um molho de <br>emulsão de azeite de dendê, limão-cravo, <br>alho, coentro e pimenta rosa, servidas sobre <br>uma cama de purê de mandioquinha.</p>
+      <img class="vieira" src="https://cdn0.tudoreceitas.com/pt/posts/7/7/4/vieira_grelhada_4477_600.webp">
+      
+      <p class="filetitulo">Filé Mignon ao Molho de <br>Jabuticaba e Pimenta-rosa</p>
+      <p class="filecoisas">Medalhões de filé mignon grelhados, <br>acompanhados de um molho encorpado feito <br>com jabuticaba, vinho tinto, pimenta-rosa, <br>cebola caramelizada e especiarias, servidos com <br>risoto de açafrão.</p>
+      <img class="file" src="https://www.mundomulher.com.br/imgs.php?img=dados/uploads/texto/8419.jpg&largura=500&altura=370">
+      
+      <p class="cevichetitulo">Ceviche de Linguado <br>com Maracujá e Gengibre</p>
+      <p class="cevichecoisas">Peixe linguado fresco marinado em suco <br>de maracujá, gengibre, coentro, cebola roxa <br>e pimenta dedo-de-moça, servido com chips <br>de banana-da-terra.</p>
+      <img class="ceviche" src="https://boxdopescado.com.br/wp-content/uploads/2021/05/imgreceita-1024x576.jpg">
+      
+      <p class="robalotitulo">Robalo Grelhado com <br>Molho de Castanha-do-pará <br>e Limão-siciliano</p>
+      <p class="robalocoisas">Filé de robalo grelhado, acompanhado <br>de um molho cremoso de castanha-do-pará,<br> limão-siciliano, alho-poró e coentro,<br> servido com purê de batata-baroa.</p>
+      <img class="robalo" src="https://i.panelinha.com.br/i1/228-bk-1983-robalo-receita-blog.webp">
+      
+      <p class="polvotitulo">Polvo Grelhado com <br>Aioli de Pimenta-biquinho e <br>Limão-cravo</p>
+      <p class="polvocoisas">Tentáculos de polvo grelhados,<br> servidos com um aioli cremoso de pimenta-biquinho,<br> limão-cravo, alho, azeite de oliva extravirgem e <br>ervas finas.</p>
+      <img class="polvo" src="https://img.freepik.com/fotos-premium/polvo-grelhado-com-molho-de-manteiga-de-limao-e-dentes-de-alho-assados_928211-4663.jpg?w=1380">
+      
+      <p class="quibebetitulo">Quibebe de Lagosta</p>
+      <p class="quibebecoisas">Lagosta grelhada servida sobre um<br> purê de abóbora temperado com cebola,<br> alho, gengibre, pimenta dedo-de-moça<br> e coentro fresco.</p>
+      <img class="quibebe" src="https://static.itdg.com.br/images/1200-675/021aa671e9ad0e96190e00fcfd923c36/83477-original.jpg">
+
+      <p class="porcotitulo">Costela de Porco ao Molho<br> de Cachaça e Laranja com Purê <br>de Batata-doce e Especiarias</p>
+      <p class="porcocoisas">Costela de porco cozida lentamente <br>em um molho de cachaça, suco de laranja,<br> mel, cravo, canela e anis estrelado, servida<br> com purê de batata-doce e brócolis grelhado.</p>
+      <img class="porco" src="https://1.bp.blogspot.com/-NI6Cox8tMBc/VMg8QA2-a9I/AAAAAAAAAH4/CXBlu2JfFPg/s1600/IMG_9785.JPG">
+
+      <hr class="separacao"> <!--Linha pra não ficar totalmente branco-->
+
+      <center><footer id="opiniaopopular"><h1 class="opiniao"><i>Top 10 Comidas Favoritas dos Clientes do Sabor & Arte</i></h1></footer></center> <!--Texto para informar, tendo o <center> para centralizar, o <footer> ligado com o botão da barra de navegação (aqui ele serve como uma espécie de âncora, para que no click você seja levado até aqui) e o <i>, para deixar o texto itálico-->
+
+      <ol reversed start="10" class="listaclientes"> <!--O <ol> é usado para listagem numerada de coisas, como por exemplo a opinião das pessoas sobre o restaurante. O reversed serve pra contagem começar ao contrário (10,9,8...) e o start="10" setta a contagem para começar no 10-->
+        <li>Ceviche de Linguado com Maracujá e Gengibre <br>- Avaliações: 7/10 <br>- Número de pessoas que gostam: 40</li>
+        <br>
+        <li>Robalo Grelhado com Molho de Castanha-do-pará e Limão-siciliano <br>- Avaliações: 7/10 <br>- Número de pessoas que gostam: 45</li>
+        <br>
+        <li>Tartar de Atum com Manga e Pimenta Rosa <br>- Avaliações: 7.5/10 <br>- Número de pessoas que gostam: 50</li>
+        <br>
+        <li>Magret de Pato ao Molho de Tamarindo e Pimenta-de-cheiro <br>- Avaliações: 7.5/10 <br>- Número de pessoas que gostam: 55</li>
+        <br>
+        <li>Risoto de Camarão com Coco e Curry Brasileiro <br>- Avaliações: 8/10 <br>- Número de pessoas que gostam: 60</li>
+        <br>
+      </ol>
+
+      <ol class="listaclientes2">
+        <li>Filé Mignon ao Molho de Jabuticaba e Pimenta-rosa <br>- Avaliações: 9/10 <br>- Número de pessoas que gostam: 87 <br>- <u>(O mais amado pela comunidade!)</u></li>
+        <br>
+        <li>Costela de Porco ao Molho de Cachaça e Laranja com Purê de Batata-doce e Especiarias <br>- Avaliações: 9/10 <br>- Número de pessoas que gostam: 82</li>
+        <br>
+        <li>Vieiras Grelhadas com Emulsão de Azeite de Dendê e Limão-cravo <br>- Avaliações: 8.5/10 <br>- Número de pessoas que gostam: 75</li>
+        <br>
+        <li>Quibebe de Lagosta <br>- Avaliações: 8.5/10 <br>- Número de pessoas que gostam: 70</li>
+        <br>
+        <li>Polvo Grelhado com Aioli de Pimenta-biquinho e Limão-cravo <br>- Avaliações: 8/10 <br>- Número de pessoas que gostam: 65</li>
+        <br>
+      </ol>
+    </center>
+  </body>
+
+<style>
+
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .logo {
+      position: absolute;
+      width: 135px;
+      top: 10px;
+      left: 170px;
+  }
+
+  p {
+    font-family: 'Raleway'
+  }
+
+  #barradenav {
+     list-style: none;
+     padding: 0px;
+  }
+
+  #barradenav li {
+    display: inline;  /Classe para alterar o modo que a barra de navegação é exposta, no caso um do lado do outro./
+    padding: 80px;
+  }
+
+  #barradenav li a {
+    font-family: 'Raleway';
+    color: black;
+	  text-decoration: none;   
+	  font-size: 30px;
+	  display: inline-block;  /Classe usada pra customizar os links que podem ser clicados na barra de navegação, alterando a fonte, tirando a linha embaixo do link, cor, etc./
+  }
+
+  .titulo {
+    font-size: 75px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-shadow: -1px 1px 2px #000,   /O text-shadow é usado pra adicionar essa "outline" no título, colocando uma corzinha a mais, pra não deixar totalmente branca./
+				          1px 2px 6px #000,
+				          1px -1px 0 #000,
+				          -1px -1px 0 #000;
+    position: absolute;
+    top: 335px;
+    left: 660px;
+    padding: 0px;
+    margin: 0px;
+}
+
+  .cabecalho {
+    background-color: grey;
+    margin: 0;
+    padding: 60px;  /Padding usado para mudar o tamanho do cabeçalho./
+}
+
+  .imagemdeumjeitodiferente {
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2022/02/Arquivo-7-dicas-para-se-dar-bem-no-restaurante-por-quilo-facebook.jpg?quality=90&strip=info");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+    opacity: 0.8;
+    height: 400px;
+    width: 200.1vh; /O 'vh' é, nesse caso, usado para ter essa largura, definir ela e, independente das configurações ou do monitor, a imagem não se mexerá./
+    
+}
+
+  .linhadecima {
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 200vh; /Essas são as classes do 'hr', pra colocar em uma posição específica e tamanho específico também (tanto essa quanto a classe de baixo)./
+    top: 177px;
+}
+
+  .linhadebaixo {
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 200vh;
+    top: 577px;
+}
+
+.atum, .risoto, .pato, .vieira, .file, .porco, .ceviche, .robalo, .polvo, .quibebe {
+  max-height: 250px;
+  border-radius: 50%;  /Daqui para baixo são os styles para as imagens, descrições, posicionamento, tamanho da fonte, como o texto é mostrado (no caso ele é centralizado) e o font-weight para alterar a grossura da fonte, no caso eu a deixei mais fina. Eu uso o position: absolute porque ele é fácil de usar, e não gera espaços em branco na guia, algo que eu estava com problemas usando o position: relative (tento evitar ao máximo utilizar)./ 
+}
+
+.atum {
+  position: absolute;
+  top: 750px;
+  left: 115px;
+}
+
+.atumtitulo {
+  position: absolute;
+  top: 600px;
+  left: 80px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.atumcoisas {
+  position: absolute;
+  top: 970px;
+  left: 70px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.risoto {
+  position: absolute;
+  top: 730px;
+  left: 39.5%;
+}
+
+.risototitulo {
+  position: absolute;
+  top: 595px;
+  left: 38.5%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.risotocoisas {
+  position: absolute;
+  text-align: center;
+  top: 995px;
+  left: 38.5%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pato {
+  position: absolute;
+  top: 80%;
+  right: 100px;
+}
+
+.patotitulo {
+  position: absolute;
+  top: 600px;
+  text-align: center;
+  right: 40px;
+  font-size: 35px;
+}
+
+.patocoisas {
+  position: absolute;
+  text-align: center;
+  top: 1000px;
+  right: 55px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.vieira {
+  position: absolute;
+  top: 150%;
+  left: 75px;
+}
+
+.vieiratitulo {
+  position: absolute;
+  top: 130%;
+  left: 90px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.vieiracoisas {
+  position: absolute;
+  top: 178%;
+  text-align: center;
+  left: 70px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.file {
+  position: absolute;
+  top: 150%;
+  left: 42%;
+}
+
+.filetitulo {
+  position: absolute;
+  top: 130%;
+  left: 38.5%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.filecoisas {
+  position: absolute;
+  top: 178%;
+  left: 38%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ceviche {
+  position: absolute;
+  top: 150%;
+  right: 80px;
+}
+
+.cevichetitulo {
+  position: absolute;
+  top: 130%;
+  right: 100px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.cevichecoisas {
+  position: absolute;
+  top: 178%;
+  right: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.robalo {
+  position: absolute;
+  top: 226%;
+  left: 100px;
+}
+
+.robalotitulo {
+  position: absolute;
+  top: 205%;
+  left: 55px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.robalocoisas {
+  position: absolute;
+  top: 255%;
+  left: 80px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.polvo {
+  position: absolute;
+  top: 226%;
+  left: 40%;
+}
+
+.polvotitulo {
+  position: absolute;
+  top: 205%;
+  left: 38%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.polvocoisas {
+  position: absolute;
+  top: 255%;
+  left: 37%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.quibebe {
+  position: absolute;
+  top: 226%;
+  right: 60px;
+}
+
+.quibebetitulo {
+  position: absolute;
+  top: 210%;
+  right: 120px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.quibebecoisas {
+  position: absolute;
+  top: 255%;
+  right: 95px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.porco {
+  position: absolute;
+  top: 300%;
+  left: 40%;
+}
+
+.porcotitulo {
+  position: absolute;
+  top: 280%;
+  left: 36.5%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.porcocoisas {
+  position: absolute;
+  top: 330%;
+  left: 38.3%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.espaco {
+  padding-top: 3200px; /Essa classe é do <center>, para criar um espaço em branco na guia para poder posicionar as coisas da maneira que eu quisesse/
+}
+
+.opiniao {  /Título sobre as comidas favoritas (com o posicionamento, tamanho da fonte, etc)/
+  position: relative; 
+  bottom: 450px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 55px;
+}
+
+.separacao {  /Linha de separação (<hr>)/
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 200vh;
+  top: 355%;
+}
+
+.listaclientes, .listaclientes2{
+  line-height: 50px;  /Usado para criar um espaço entre os números, para não ficar muito junto/
+}
+
+ol li {
+  font-family: 'Raleway'; /Daqui para baixo é o posicionamento, tamanho da fonte e alinhamento das opiniões numeradas/
+  font-size: 20px;
+}
+
+.listaclientes {
+  position: absolute;
+  left: 230px;
+  top: 390%;
+}
+
+.listaclientes2 {
+  position: absolute;
+  right: 20px;
+  text-align: left;
+  top: 390%;
+}
+</style>
+</html>
